@@ -3,7 +3,7 @@
 Welcome to **Java Design Patterns** repo
 
 ``Patterns Completed``
- -[x] Singleton Pattern
+ - [x] Singleton Pattern
 
 ---
 
