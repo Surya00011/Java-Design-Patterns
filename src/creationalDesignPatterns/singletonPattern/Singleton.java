@@ -4,7 +4,7 @@ public class Singleton {
     /**
      * static variable holds Singleton instance
      */
-    private static Singleton instance;
+    private static volatile Singleton instance;
 
     /**
      * private constructor prevent from external initialization
