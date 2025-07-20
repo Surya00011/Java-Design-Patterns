@@ -4,7 +4,7 @@ Welcome to **Java Design Patterns** repo
 
 ``Patterns Completed``
  - [x] Singleton Pattern
-
+ - [x] Factory Pattern
 ---
 
 ## Creational Patterns
