@@ -7,7 +7,7 @@ public class Singleton {
     private static volatile Singleton instance;
 
     /**
-     * private constructor prevent from external initialization
+     * private constructor prevents from external initialization
      */
     private Singleton(){
 
