@@ -2,18 +2,18 @@
 
 Welcome to **Java Design Patterns** repo
 
-The design patterns is communicating objects and classes that are customized to solve a general design problem in a particular context.
+A design pattern is a reusable solution to a common problem in software design.
 
 ```Patterns Completed```
 
-**Creational design pattern**
+**Creational design patterns**
 
  - [x] Singleton Pattern
  - [x] Factory Pattern
  - [x] Abstract Factory Pattern
  - [x] Builder Pattern
 --- 
-**Structural design pattern**
+**Structural design patterns**
 
  - [x] Decorator Pattern
  - [x] Adapter Pattern
