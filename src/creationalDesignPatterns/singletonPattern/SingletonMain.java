@@ -21,7 +21,7 @@ public class SingletonMain {
         Future<Singleton> future2 = executorService.submit(task2);
         Singleton instance1 = future1.get();
         Singleton instance2 = future2.get();
-        System.out.println("Multiple Threads "+ instance1.equals(instance2));
+        System.out.println("Multiple Threads "+ (instance1==instance2));
         executorService.shutdown();
     }
 
@@ -31,6 +31,6 @@ public class SingletonMain {
     public static void singleThread(){
         Singleton instance1 = Singleton.getInstance();
         Singleton instance2 = Singleton.getInstance();
-        System.out.println("Single Thread: "+ instance1.equals(instance2));
+        System.out.println("Single Thread: "+(instance1==instance2));
     }
 }
